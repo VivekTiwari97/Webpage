@@ -1,0 +1,56 @@
+/* CSS for the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* CSS for the main section */
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 24px;
+  }
+  
+  .image-container {
+    width: 50%;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+  }
+  
+  /* Additional styling */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
